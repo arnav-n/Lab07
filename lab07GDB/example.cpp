@@ -10,7 +10,9 @@ public:
 
 void kerblam(int *p)
 {
+   if(p)
    *p = 0;
+   
 }
 
 void explode()
